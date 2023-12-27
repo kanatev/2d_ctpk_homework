@@ -2654,7 +2654,7 @@ GameObject:
   - component: {fileID: 1107970361}
   m_Layer: 5
   m_Name: ScoreText
-  m_TagString: Untagged
+  m_TagString: Score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3741,7 +3741,7 @@ GameObject:
   - component: {fileID: 1828535534}
   m_Layer: 5
   m_Name: ScoreDigit
-  m_TagString: ScoreDigit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4443,7 +4443,7 @@ MonoBehaviour:
   move: {fileID: -5726777960882891613, guid: d76c7d3c9a5714afa9595b7f2e3f5cdd, type: 3}
   fire: {fileID: 2413988902324138608, guid: d76c7d3c9a5714afa9595b7f2e3f5cdd, type: 3}
   look: {fileID: -4185956741915241127, guid: d76c7d3c9a5714afa9595b7f2e3f5cdd, type: 3}
-  moveSpeed: 25
+  moveSpeed: 100
 --- !u!50 &2105839148
 Rigidbody2D:
   serializedVersion: 4

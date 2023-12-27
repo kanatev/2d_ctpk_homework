@@ -1,43 +1,41 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.UIElements;
+using DG.Tweening;
 
-public class AppleChewedState : AppleBaseStateAbstract
+public class AppleChewedState: AppleBaseStateAbstract
 {
-    private GameObject scoreDigit;
+    // private GameObject scoreDigit;
     private Vector3 scorePos;
-    private const string AppleTreeTag = "AppleTree";
-    private const string ScoreDigitTag = "ScoreDigit";
-    private float appleFlightSpeed = 5f;
-
+    private const string ScoreTag = "Score";
+    private float appleDestroyCountdown = 0.5f;
 
     public override void EnterState(AppleStateManagerContext apple)
     {
         apple.GetComponent<Rigidbody2D>().gravityScale = 0;
         apple.GetComponent<Rigidbody2D>().freezeRotation = true;
         apple.GetComponent<Collider2D>().enabled = false;
-
-        scoreDigit = GameObject.FindWithTag(ScoreDigitTag);
+        GameObject scoreDigit = GameObject.FindWithTag(ScoreTag);
         scorePos = Vector3.zero;
+        scorePos = Camera.main.ScreenToWorldPoint(scoreDigit.transform.position);
+        scorePos.z = 0f;
+        apple.transform.DOMove(scorePos, appleDestroyCountdown);
     }
 
     public override void UpdateState(AppleStateManagerContext apple)
     {
-        scorePos = Camera.main.ScreenToWorldPoint(scoreDigit.transform.position);
-        
-        if (apple.transform.position.x != scorePos.x && apple.transform.position.y != scorePos.y)
+        if (appleDestroyCountdown >= 0f)
         {
-            apple.transform.position = Vector2.MoveTowards(apple.transform.position, scorePos, appleFlightSpeed * Time.deltaTime);
+            appleDestroyCountdown -= Time.deltaTime;
         }
         else
         {
-            Object.Destroy(apple.gameObject);
-            // apple.transform.position
-            // apple.SwitchState(apple.GrowingState);            
+            if (apple.gameObject != null)
+            {
+                Object.Destroy(apple.gameObject);
+            }
         }
     }
 
-    public override void OnCollisionEnter(AppleStateManagerContext apple, Collision2D collision)
+    public override void AppleOnCollisionEnter(AppleStateManagerContext apple, Collision2D collision)
     {
         
     }

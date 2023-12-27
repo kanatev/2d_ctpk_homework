@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AppleStateManagerContext : MonoBehaviour
@@ -21,7 +19,7 @@ public class AppleStateManagerContext : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        currentState.OnCollisionEnter(this, other);
+        currentState.AppleOnCollisionEnter(this, other);
     }
 
     // Update is called once per frame

@@ -6,7 +6,6 @@ public class AppleGrowingState : AppleBaseStateAbstract
 
     public override void EnterState(AppleStateManagerContext apple)
     {
-        Debug.Log("growing state enter");
         apple.transform.localScale = startingAppleSize;
     }
 
@@ -22,7 +21,7 @@ public class AppleGrowingState : AppleBaseStateAbstract
         }
     }
 
-    public override void OnCollisionEnter(AppleStateManagerContext apple, Collision2D collision)
+    public override void AppleOnCollisionEnter(AppleStateManagerContext apple, Collision2D collision)
     {
         
     }

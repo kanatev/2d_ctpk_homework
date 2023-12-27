@@ -6,8 +6,8 @@ TagManager:
   tags:
   - Apple
   - AppleTree
-  - ScoreDigit
   - Damage
+  - Score
   layers:
   - Default
   - TransparentFX

@@ -27,7 +27,7 @@ public class HeroMoving : MonoBehaviour
         switch (context.phase)
         {
             case InputActionPhase.Started:
-                Debug.Log(context.interaction + " - Started");
+                // Debug.Log(context.interaction + " - Started");
                 if(!isMoving)
                 {
                     isMoving = true;
@@ -35,7 +35,7 @@ public class HeroMoving : MonoBehaviour
                 }
                 break;
             case InputActionPhase.Canceled:
-                Debug.Log(context.interaction + " - Canceled");
+                // Debug.Log(context.interaction + " - Canceled");
                 if(isMoving)
                 {
                     isMoving = false;
@@ -66,7 +66,7 @@ public class HeroMoving : MonoBehaviour
     {
         if (!isAttacking)
         {
-            Debug.Log("fire");
+            // Debug.Log("fire");
             animator.SetBool("IsAttacking", true);
             isAttacking = true;
             Invoke(nameof(EndOfAttack), 1);
