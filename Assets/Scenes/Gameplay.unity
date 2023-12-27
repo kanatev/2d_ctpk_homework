@@ -2654,7 +2654,7 @@ GameObject:
   - component: {fileID: 1107970361}
   m_Layer: 5
   m_Name: ScoreText
-  m_TagString: Score
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2700,8 +2700,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Apples:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 14900ad3ad8724dddb10c1f58a3f7c98, type: 2}
+  m_sharedMaterial: {fileID: -4949127006285025764, guid: 14900ad3ad8724dddb10c1f58a3f7c98, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3211,7 +3211,7 @@ GameObject:
   - component: {fileID: 1397457397}
   m_Layer: 5
   m_Name: Score
-  m_TagString: Untagged
+  m_TagString: Score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3235,7 +3235,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 82.18091, y: -25}
-  m_SizeDelta: {x: 164.3618, y: 50}
+  m_SizeDelta: {x: 180, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1409634903
 GameObject:
@@ -3741,7 +3741,7 @@ GameObject:
   - component: {fileID: 1828535534}
   m_Layer: 5
   m_Name: ScoreDigit
-  m_TagString: Untagged
+  m_TagString: ScoreDigit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3787,8 +3787,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 14900ad3ad8724dddb10c1f58a3f7c98, type: 2}
+  m_sharedMaterial: {fileID: -4949127006285025764, guid: 14900ad3ad8724dddb10c1f58a3f7c98, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
