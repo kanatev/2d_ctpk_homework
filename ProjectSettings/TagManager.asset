@@ -9,6 +9,7 @@ TagManager:
   - Damage
   - Score
   - ScoreDigit
+  - Menu
   layers:
   - Default
   - TransparentFX

@@ -33,18 +33,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Jump",
+                    "name": "Menu",
                     "type": "Button",
-                    "id": "87fc09ff-ec53-43d3-8b8a-89f383a37cc1",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Spell",
-                    "type": "Button",
-                    "id": "0383a6fb-c26c-4e2f-b828-16fb684930fa",
+                    "id": "8bfd910c-2205-494d-af8f-5900ccb1870d",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -274,12 +265,12 @@
                 },
                 {
                     "name": "",
-                    "id": "53b66706-d5ef-4b71-aef6-9be45fe56d0b",
-                    "path": "<Keyboard>/m",
-                    "interactions": "Hold",
+                    "id": "e90a1081-ee3d-4018-a745-aaef61ff48cf",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Spell",
+                    "groups": "",
+                    "action": "Menu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
