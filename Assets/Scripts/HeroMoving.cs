@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 
 public class HeroMoving : MonoBehaviour
 {
+    private PlayerInput playerInput;
     [SerializeField] private InputActionReference move, fire, look;
     [SerializeField] private float moveSpeed = 5f;
     private Vector2 pointerInput, movementInput;
@@ -17,6 +18,10 @@ public class HeroMoving : MonoBehaviour
     private bool isAttacking;
     private bool isMoving;
     Vector2 previousMovementDirection;
+
+    private void Awake() {
+        playerInput = GetComponent<PlayerInput>();
+    }
 
     public void OnMoving(InputAction.CallbackContext context)
     {
@@ -66,7 +71,6 @@ public class HeroMoving : MonoBehaviour
     {
         if (!isAttacking)
         {
-            // Debug.Log("fire");
             animator.SetBool("IsAttacking", true);
             isAttacking = true;
             Invoke(nameof(EndOfAttack), 1);
@@ -78,19 +82,13 @@ public class HeroMoving : MonoBehaviour
         animator.SetBool("IsAttacking", false);
     }
 
-
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         sprite = gameObject.transform.GetChild(0);
         animator = sprite.GetComponent<Animator>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        previousMovementDirection = new Vector2(-1.0f, 0.0f);
     }
 
     void FixedUpdate()
