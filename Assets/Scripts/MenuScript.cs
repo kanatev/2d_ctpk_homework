@@ -7,18 +7,20 @@ public class MenuScript : MonoBehaviour
 {
     private bool isMenuOpened;
     private GameObject menuPanel;
-    private GameObject hero;
+    private GameObject playerInputObject;
     private PlayerInput playerInput;
+    private GameObject menuButton;
 
     // Start is called before the first frame update
     void Start()
     {
         menuPanel = GameObject.FindGameObjectWithTag("Menu");
         menuPanel.SetActive(false);
-        hero = GameObject.FindGameObjectWithTag("Player");
-        playerInput = hero.GetComponent<PlayerInput>();
+        playerInputObject = GameObject.FindGameObjectWithTag("PlayerInput");
+        playerInput = playerInputObject.GetComponent<PlayerInput>();
+        menuButton = GameObject.FindGameObjectWithTag("MenuButton");
     }
-
+    
     public void OnMenuButtonPush()
     {
         if (!isMenuOpened)
@@ -27,7 +29,8 @@ public class MenuScript : MonoBehaviour
             menuPanel.SetActive(true);
 
             // play sound of a button
-            gameObject.GetComponent<AudioSource>().Play();
+            menuButton.GetComponent<AudioSource>().Play();
+            
             
             // pause the game
             Time.timeScale = 0;
@@ -41,7 +44,7 @@ public class MenuScript : MonoBehaviour
     {
         if (isMenuOpened)
         {
-            gameObject.GetComponent<AudioSource>().Play();
+            menuButton.GetComponent<AudioSource>().Play();
             Time.timeScale = 1;
             Cursor.lockState = CursorLockMode.Locked;
             playerInput.SwitchCurrentActionMap("Player");

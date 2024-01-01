@@ -10,6 +10,8 @@ TagManager:
   - Score
   - ScoreDigit
   - Menu
+  - PlayerInput
+  - MenuButton
   layers:
   - Default
   - TransparentFX
