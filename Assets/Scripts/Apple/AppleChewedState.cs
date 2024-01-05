@@ -1,6 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 using TMPro;
+using Unity.VisualScripting;
 
 public class AppleChewedState: AppleBaseStateAbstract
 {

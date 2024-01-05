@@ -7,6 +7,7 @@ public class AppleGrowingState : AppleBaseStateAbstract
     public override void EnterState(AppleStateManagerContext apple)
     {
         apple.transform.localScale = startingAppleSize;
+        apple.GetComponent<ParticleSystem>().Stop();
     }
 
     public override void UpdateState(AppleStateManagerContext apple)

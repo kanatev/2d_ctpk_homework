@@ -2,7 +2,10 @@ using UnityEngine;
 
 public class AppleWholeState : AppleBaseStateAbstract
 {
-    private float rottenCountdown = 3f;
+    private float rottenCountdown = 5f;
+    private float dropCountdown = 2f;
+    private bool isAppleDropped = false;
+
 
     public override void EnterState(AppleStateManagerContext apple)
     {
@@ -11,6 +14,20 @@ public class AppleWholeState : AppleBaseStateAbstract
 
     public override void UpdateState(AppleStateManagerContext apple)
     {
+        if (dropCountdown >= 0)
+        {
+            dropCountdown -= Time.deltaTime;
+        }
+        else
+        {
+            if(!isAppleDropped)
+            {
+                apple.GetComponent<Rigidbody2D>().gravityScale = 1;
+                apple.GetComponent<Collider2D>().enabled = true;
+                isAppleDropped = true;
+            }
+        }
+
         if (rottenCountdown >= 0)
         {
             rottenCountdown -= Time.deltaTime;
