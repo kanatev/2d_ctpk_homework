@@ -12,6 +12,8 @@ TagManager:
   - Menu
   - PlayerInput
   - MenuButton
+  - PostProcessing
+  - DrunkEffect
   layers:
   - Default
   - TransparentFX
@@ -21,7 +23,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Post-Proccessing Volumes
   - 
   - 
   - 

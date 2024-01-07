@@ -9,7 +9,6 @@ public class AppleStateManagerContext : MonoBehaviour
     public AppleWholeState WholeState = new AppleWholeState();
     public AppleChewedState ChewedState = new AppleChewedState();
 
-
     // Start is called before the first frame update
     void Start()
     {
