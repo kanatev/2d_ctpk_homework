@@ -14,9 +14,9 @@ public class HeroMoving : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     private Transform sprite;
-    private bool isFacingLeft = true;
+    public bool isFacingLeft = true;
     private bool isAttacking;
-    private bool isMoving;
+    public bool isMoving;
     Vector2 previousMovementDirection;
 
     private void Awake() {

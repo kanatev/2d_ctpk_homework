@@ -163,14 +163,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8422339}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
+  destination: 0
+  originalLocation: 0
 --- !u!212 &8422342
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -263,14 +263,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38095679}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.9
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
+  destination: 0
+  originalLocation: 0
 --- !u!212 &38095682
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -363,14 +363,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203971537}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.7
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
+  destination: 0
+  originalLocation: 0
 --- !u!212 &203971540
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1023,14 +1023,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445513799}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.7
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
+  destination: 0
+  originalLocation: 0
 --- !u!212 &445513802
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1243,14 +1243,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458196386}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.8
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
+  destination: 0
+  originalLocation: 0
 --- !u!212 &458196389
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1343,14 +1343,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 506573502}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -1.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
+  destination: 0
+  originalLocation: 0
 --- !u!212 &506573505
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1978,14 +1978,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608800337}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.8
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
+  destination: 0
+  originalLocation: 0
 --- !u!212 &608800340
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2285,14 +2285,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708737139}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.5
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
+  destination: 0
+  originalLocation: 0
 --- !u!212 &708737142
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2385,14 +2385,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 724021993}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.9
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
+  destination: 0
+  originalLocation: 0
 --- !u!212 &724021996
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2695,14 +2695,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900964101}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.35
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
+  destination: 0
+  originalLocation: 0
 --- !u!212 &900964104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2795,14 +2795,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 911835606}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -1
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
+  destination: 0
+  originalLocation: 0
 --- !u!212 &911835609
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3402,14 +3402,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091557068}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
+  destination: 0
+  originalLocation: 0
 --- !u!212 &1091557071
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3680,14 +3680,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114459497}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.5
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
+  destination: 0
+  originalLocation: 0
 --- !u!212 &1114459500
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3827,14 +3827,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209804470}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -0.35
-  PontoDeDestino: -8.56
-  PontoOriginal: 9.5
+  destination: 0
+  originalLocation: 0
 --- !u!212 &1209804473
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4832,14 +4832,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458556312}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -1.1
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
+  destination: 0
+  originalLocation: 0
 --- !u!212 &1458556315
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10386,14 +10386,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1854490853}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -1.2
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
+  destination: 0
+  originalLocation: 0
 --- !u!212 &1854490856
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10703,14 +10703,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2019664415}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -1
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
+  destination: 0
+  originalLocation: 0
 --- !u!212 &2019664418
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10934,6 +10934,8 @@ MonoBehaviour:
   fire: {fileID: 2413988902324138608, guid: d76c7d3c9a5714afa9595b7f2e3f5cdd, type: 3}
   look: {fileID: -4185956741915241127, guid: d76c7d3c9a5714afa9595b7f2e3f5cdd, type: 3}
   moveSpeed: 100
+  isFacingLeft: 1
+  isMoving: 0
 --- !u!50 &2105839148
 Rigidbody2D:
   serializedVersion: 4
@@ -11001,14 +11003,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126631212}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e9e32b7281e96947899f72129830dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -1.1
-  PontoDeDestino: -8.56
-  PontoOriginal: 9
+  destination: 0
+  originalLocation: 0
 --- !u!212 &2126631215
 SpriteRenderer:
   m_ObjectHideFlags: 0
