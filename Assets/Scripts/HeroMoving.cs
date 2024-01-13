@@ -9,7 +9,7 @@ public class HeroMoving : MonoBehaviour
 {
     private PlayerInput playerInput;
     [SerializeField] private InputActionReference move, fire, look;
-    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] public float moveSpeed = 5f;
     private Vector2 pointerInput, movementInput;
     private Rigidbody2D rb;
     private Animator animator;
